@@ -1,237 +1,5 @@
-<!--HTML Syntax-->
-
-<!--Make Your First Element-->
-<p>This is a paragraph with some text content to demonstrate the correct structure.</p>
-
-<span>First span with text content.</span>
-<span>Second span with additional text content.</span>
-
-
-<!--Spot the bug
-Question 1 of 4 
-<p>a paragraph<p>
-Improperly formated - <p>a paragraph</p>
-Question 2 of 4 
-<p><em>words, words, wrods.</em></p>
-Looks good!
-Question 3 of 4 
-<span...middle of the sentence...</span> - <span>...middle of the sentence...</span>
-Improperly formated
-Question 4 of 4 
-<p><em>words, words, wrods.</p></em> - <p><em>words, words, words.</em></p>
-Improperly formated
-
-
-HTML Validators
-Question 1 of 2
-Using the W3C HTML Validator(opens in a new tab), what happens when you enter the following HTML into the "validate by input" text box:
-The validator found errors or warnings in the HTML
-The validator assumed the document was something other than HTML5
-
-Question 2 of 2
-Now, modify the HTML you entered previously so it follows the HTML template. Make sure to set doctype for HTML5!
-What is the message displayed once the validator successfully validates your code?
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Validation Example</title>
-    </head>
-    <body>
-        <h1>This is a title</h1>
-    </body>
-</html>
-
-Document checking completed. No errors or warnings to show.
--->
-
-<!--HTML Syntax Problem Set-->
-
-<!--For this quiz, all I want you to do is type out the HTML to create a button element.-->
-<button>Click Me!</button>
-
-<!--Tree to HTML-->
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Exercise: HTML Structure</title>
-    </head>
-    <body>
-        <h1>Welcome to My Web Page!</h1>
-        
-        <div>
-            <p>This is the first paragraph inside the div.</p>
-            <p>This is the second paragraph inside the div.</p>
-        </div>
-    </body>
-</html>
-
-<!--Constructing Links-->
-<a href="https://www.google.com">Google</a>
-
-<!--Add an Image-->
-<p>Here is an image of the Udacity logo:
-    <img src="http://udacity.github.io/fend/images/udacity.png" alt="Udacity logo">
-</p>
-
-<!--Figures-->
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Exercise: Figure Element</title>
-    </head>
-    <body>
-        <figure>
-            <img src="redwoods_state_park.jpg" alt="Beautiful view of Redwoods State Park">
-            <figcaption>Beautiful view of Redwoods State Park</figcaption>
-        </figure>
-    </body>
-</html>
-
-<!--Mockup to Website-->
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Mockup Recreation</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f4f4f9;
-                color: #333;
-                padding: 20px;
-            }
-            .container {
-                width: 80%;
-                margin: 0 auto;
-                background-color: #fff;
-                padding: 20px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                border-radius: 10px;
-            }
-            h1, h2, h3 {
-                font-family: 'Georgia', serif;
-                color: #333;
-            }
-            img {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin: 0 auto;
-            }
-            p {
-                line-height: 1.6;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Welcome to My Blog</h1>
-            <h2>A Place to Share Knowledge</h2>
-            <img src="mockup-image.jpg" alt="A descriptive alt text for the image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula, arcu a interdum suscipit, arcu sapien blandit velit, sed condimentum risus ipsum non orci. Quisque a ex nisi.</p>
-            <h3>Recent Articles</h3>
-            <p>Check out the latest articles on various topics that interest you.</p>
-        </div>
-    </body>
-</html>
-
-
-<!--CSS Syntax-->
-
-<!--Quiz Question
-The web page with CSS applied to it is...
-The third web page-->
-
-<!--CSS Syntax color-->
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Change Header Color</title>
-        <style>
-            h1 {
-                color: green; /* This changes the color of the header text to green */
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Hello, world!</h1>
-    </body>
-</html>
-
-<!--Quiz Question
-Just like you saw in the previous video, consider a web page with multiple paragraph tags. If we write a CSS ruleset use a p selector, which paragraph(s) would be affected by the style?
-
-p {
-  background-colors: pink;
-{
-
-All paragraphs
--->
-
-<!--Quiz Question
-Which of the following HTML elements match the above CSS statement? Please select all that apply:
-
-<div class="right"></div>
-<p class="highlight module right"></p>
--->
-
-<!--
-Which CSS property is used to italicize text?
-font-style
-
-Which CSS property is used to underline text?
-text-decoration
-
-Which CSS property is used to UPPERCASE text?
-text-transform
-
-Which CSS property is used to bold text?
-font-weight
--->
-
-<!--Units in CSS-->
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Modify Div Elements</title>
-        <style>
-            .first-div {
-                width: 100px;
-            }
-            .second-div {
-                height: 200px;
-            }
-            .third-div {
-                margin: 1em;
-            }
-            .fourth-div {
-                font-size: 2em;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="first-div">First div</div>
-        <div class="second-div">Second div</div>
-        <div class="third-div">Third div</div>
-        <div class="fourth-div">Fourth div</div>
-    </body>
-</html>
-
-<!--Identifying Colors
-Which of the following CSS declarations can be used to represent the standard color for blue?
-color: blue;
-color: #00f;
-color: rgb(0, 0, 225);
--->
-
-/*CSS Syntax Problem Set*/
-/*Style an Image*/
+/* CSS Syntax Problem Set */
+/* Style an Image */
 .kitten-image {
     border: 5px dashed salmon;
     border-radius: 5px;
@@ -239,25 +7,28 @@ color: rgb(0, 0, 225);
     box-shadow: 5px 5px 20px #ccc;
 }
 
-/*Purple UDACITY*/
+/* Purple UDACITY */
+
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Font Styling Example</title>
-        <style>
-            .udacity-text {
-                color: #8001ff; /* Changes the text color to purple */
-                text-transform: uppercase; /* Transforms the text to uppercase */
-                text-decoration: underline; /* Underlines the text */
-            }
-        </style>
-    </head>
-    <body>
-        <p class="udacity-text">Udacity</p>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Font Styling Example</title>
+    <style>
+        .udacity-text {
+            color: #8001ff; /* Changes the text color to purple */
+            text-transform: uppercase; /* Transforms the text to uppercase */
+            text-decoration: underline; /* Underlines the text */
+        }
+    </style>
+</head>
+<body>
+    <p class="udacity-text">Udacity</p>
+</body>
 </html>
 
-*/Chicken Pot*/
+/* Chicken Pot */
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -289,7 +60,8 @@ color: rgb(0, 0, 225);
 </body>
 </html>
 
-/*Attributes*/
+/* Attributes */
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -352,7 +124,8 @@ color: rgb(0, 0, 225);
 </body>
 </html>
 
-/*Slack Card*/
+/* Slack Card */
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -455,14 +228,14 @@ color: rgb(0, 0, 225);
 </body>
 </html>
 
-/*UDACITY Site Header*/
+/* UDACITY Site Header */
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Udacity Site Header</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-  
   <style>
     * {
       box-sizing: border-box;
@@ -514,7 +287,7 @@ color: rgb(0, 0, 225);
       display: inline;
       margin-left: 37.5px;
     }
-  </style>
+    </style>
 </head>
 <body>
   <header>
@@ -545,9 +318,8 @@ color: rgb(0, 0, 225);
 </body>
 </html>
 
-/*Stylesheet*/ 
+/* Stylesheet */ 
 <!DOCTYPE html>
-
 <html>
 <head>
     <title>Link to a Stylesheet Quiz</title>

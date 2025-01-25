@@ -1,0 +1,64 @@
+/* CSS Syntax */
+
+/* Quiz Question:  
+   The web page with CSS applied to it is...  
+   The third web page */
+
+/* CSS Syntax color */
+h1 {
+    color: green; /* This changes the color of the header text to green */
+}
+
+/* Quiz Question:  
+   Just like you saw in the previous video, consider a web page with multiple paragraph tags.  
+   If we write a CSS ruleset use a p selector, which paragraph(s) would be affected by the style?  
+
+   p {  
+     background-color: pink;  
+   }  
+
+   All paragraphs */
+
+/* Quiz Question:  
+   Which of the following HTML elements match the above CSS statement?  
+   Please select all that apply:  
+
+   <div class="right"></div>  
+   <p class="highlight module right"></p>  
+*/
+
+/* Which CSS property is used to italicize text?  
+   font-style  
+
+   Which CSS property is used to underline text?  
+   text-decoration  
+
+   Which CSS property is used to UPPERCASE text?  
+   text-transform  
+
+   Which CSS property is used to bold text?  
+   font-weight */
+
+/* Units in CSS */
+.first-div {
+    width: 100px;
+}
+
+.second-div {
+    height: 200px;
+}
+
+.third-div {
+    margin: 1em;
+}
+
+.fourth-div {
+    font-size: 2em;
+}
+
+/* Identifying Colors:  
+   Which of the following CSS declarations can be used to represent the standard color for blue?  
+
+   color: blue;  
+   color: #00f;  
+   color: rgb(0, 0, 255); */
