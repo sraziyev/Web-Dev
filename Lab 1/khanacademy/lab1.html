@@ -1,3 +1,7 @@
+<!--To practice the basics of HTML, let's have you write and markup a poem. To start off with, what will the title of your poem be?
+
+Using the <h1> tag we learned about, add a heading for your poem. This will be your title.-->>
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -12,3 +16,1107 @@
            I’d say we’d share a laugh.</p>
     </body>
 </html>
+
+
+<!--We've made this webpage with the words to 'You can learn anything', a video that Khan Academy made. Using both the <strong> and <em> tags that you just learned, mark up this text to show what you think should be emphasized and highlighted.-->>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: You can learn text tags</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p>
+        Nobody’s <strong>born smart</strong>. We all start at 0. Can’t talk, can’t walk, certainly can’t do algebra.<br>
+        Adding, reading, writing, riding a bike. <em>Nobody’s good at anything at first</em>.<br>
+        There was a time when Einstein couldn’t count to 10.<br>
+        And Shakespeare had to learn his ABCs just like the rest of us.<br>
+        Thankfully, we are <em>born to learn</em>.<br>
+        <em>Slowly. Surely.</em> You stumble, slip, crawl, fall and fail and fall.<br>
+        <strong>Frustrating. Confusing. Trying. Struggling.</strong><br>
+        Until one day, you walk.<br>
+        One foot in front of the other. One idea on top of the next.<br>
+        Each wrong answer making your brain a little bit stronger.<br>
+        <em>Failing is just another word for growing</em>. And you keep going.<br>
+        <strong>This. is. learning.</strong><br>
+        It’s not that you don’t get it. <br>
+        You just don’t get it, <strong>yet</strong>.
+        Because the most beautiful, complex concepts in the whole universe<br>
+        are built on basic ideas that anyone, anywhere can understand.<br>
+        <em>Whoever you are, wherever you are</em>.<br>
+        </p>
+        <p>
+        You only have to know one thing:<br>
+        <strong>You can learn anything</strong>.
+        </p>
+    </body>
+</html>
+
+<!--What do you wish for? In this challenge, you'll make a wishlist: a list of activities you want to do or things you want to have. To start off, write the HTML tag that creates a numbered list.-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: Wishlist</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <ol>
+            <li>Learn a new language</li>
+            <li>Buy a new laptop</li>
+            <li>Read 10 new books</li>
+            <li>Be rich</li>
+        </ol>
+    </body>
+</html>
+
+
+<!--If you could take the perfect trip, where would you go? What animals would you see? What food would you eat? Add images to this webpage after each paragraph tag, to share your perfect trip with the world.-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: A picture-perfect trip</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>The perfect trip</h1>
+        
+        <p>I would see scenes like...</p>
+        <img src="https://s9.travelask.ru/system/images/files/001/306/093/wysiwyg_jpg/1.jpg?1556005602" alt="Beautiful scenery">
+        
+        <p>And animals like...</p>
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/1773286/pub_5de61a27e6cb9b00b1fc2946_5de6200d0be00a00ae4eb90e/scale_1200" alt="Animals">
+        
+        <p>And eat food like...</p>
+        <img src="https://cs12.pikabu.ru/post_img/big/2022/03/21/10/164788531015775115.jpg" alt="Delicious food">
+        
+    </body>
+</html>
+
+
+<!--Let's have you make a webpage about an awesome animal, and color the webpage to look like it.
+
+For this first step, use the image picker to add an image to the page that shows the animal, and then fill in the paragraph with information about it-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Colorful creature</title>
+        <style>
+            body {
+                background-color: rgb(24, 69, 59); /* Peacock-inspired color */
+                color: #ffffff;
+                font-family: Arial, sans-serif;
+            }
+            h1 {
+                text-align: center;
+                color: rgb(3, 169, 244); /* Peacock feather-inspired color */
+            }
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            p {
+                text-align: center;
+                font-size: 1.2em;
+                color: rgb(0, 150, 136); /* Peacock feather-inspired color */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The coolest creature</h1>
+        
+        <img src="https://kazzoobotsad.ru/upload/iblock/590/jknim1f8xbqk3csv3stajl8g5ubq9mpk.jpg" alt="Peacock" width="500" height="300">
+        
+        <p>The <em>peacock</em> is awesome because <strong>of its vibrant, iridescent feathers and majestic display during courtship rituals</strong>.</p>
+        
+    </body>
+</html>
+
+
+<!--This webpage describes the favorite seasons of Olaf, a sun-loving snowman. Both of the <h2>'s have id's, but there are no CSS rules for styling them yet. Add 2 rules that color the headings.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Seasonal ids</title>
+        <style>
+            #summer {
+                color: orange; /* Color inspired by summer sun */
+            }
+            #winter {
+                color: blue; /* Color inspired by winter chill */
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Olaf's favorite seasons</h1>
+        
+        <h2 id="summer">Summer</h2>
+        <p>He's a happy snowman, doing what frozen things do in summer.</p>
+        
+        <h2 id="winter">Winter</h2>
+        <p>He likes to stay in and cuddle</p>
+    </body>
+</html>
+
+<!--This webpage displays the lyrics for a song about apples and bananas. There are already classes on most of the words about apples and bananas, but there is no style for those classes yet. Add two style rules, one that sets a color for the 'apples' class and another that sets a color for the 'bananas' class.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Apples and bananas classes</title>
+        <style>
+            .apples {
+                color: red; /* Color for apples */
+            }
+            .bananas {
+                color: yellow; /* Color for bananas */
+            }
+        </style>
+    </head>
+    <body>
+
+    <h1><strong class="apples">Apples</strong> and <strong class="bananas">Bananas</strong></h1>
+    
+    <p>
+    I like to eat eat eat 
+        <strong class="apples">apples</strong> and
+        <strong class="bananas">bananas</strong>.<br>
+    I like to eat eat eat 
+        <strong class="apples">apples</strong> and
+        <strong class="bananas">bananas</strong>.<br>
+    I like to ate ate ate 
+        <strong class="apples">ay-ples</strong> and
+        <strong class="bananas">bay-nay-nays</strong>.<br>
+    I like to ate ate ate 
+        <strong class="apples">ay-ples</strong> and
+        <strong class="bananas">bay-nay-nays</strong>.<br>
+    I like to eet eet eet
+        <strong class="apples">ee-ples</strong> and
+        <strong class="bananas">bee-nee-nees</strong>.<br>
+    I like to eet eet eet
+        <strong class="apples">ee-ples</strong> and
+        <strong class="bananas">bee-nee-nees</strong>.<br>
+    I like to ite ite ite
+        <strong class="apples">i-ples</strong> and
+        <strong class="bananas">by-by-nys</strong>.<br>
+    I like to ite ite ite
+        <strong class="apples">i-ples</strong> and
+        <strong class="bananas">by-by-nys</strong>.<br>
+    I like to ote ote ote
+        <strong class="apples">oh-ples</strong> and
+        <strong class="bananas">bo-no-nos</strong>.<br>
+    I like to ote ote ote
+        <strong class="apples">oh-ples</strong> and
+        <strong class="bananas">bo-no-nos</strong>.<br>
+    I like to ute ute ute
+        <strong class="apples">uupples</strong> and
+        <strong class="bananas">bununus</strong>.<br>
+    I like to ute ute ute
+        <strong class="apples">uupples</strong> and
+        <strong class="bananas">bununus</strong>.<br>
+    I like to eat eat eat 
+        <strong class="apples">apples</strong> and
+        <strong class="bananas">bananas</strong>.<br>
+</p>
+
+    </body>
+</html>
+
+<!--
+In CSS, how would you select only the list items with class name "important"?
+<ul>
+  <li class="important">Wash dishes</li>
+  <li>Finish crossword</li>
+  <li class="important">Feed chickens</li>
+</ul>
+
+a. .important { }
+
+Selector,HTML Tag
+#subtitle  <h2 id="subtitle">The Modern Prometheus</h2>
+.subtitle  <h2 class="subtitle">What You Will</h2>
+#subhead  <h2 id="subhead">The Free Encyclopedia</h2>
+.subhead  <h2 class="subhead">Etymology</h2>
+
+In CSS, how would you select all the <p> tags on a page?
+d. p { }
+
+In CSS, how would you select this heading by its id?
+<h1 id="title">Fluffy cats</h1>
+-->
+
+<!--In this project, you'll use everything you've learned so far to create a travel website enticing viewers to visit an exotic locale. You should have images of what they'll see, lists of things to see and places to go, and paragraphs of enticing details. You should also use CSS to style the website, using a mix of the simple selectors you've learned.
+
+Tip: Can't find the images you want in our image selector? You can also bring in images from Wikipedia. To do that, use a site-restricted Google search, then click "View image" on the result you like, and copy the URL into your <img> tag.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Travel to Bali, Indonesia</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                color: #333;
+            }
+            h1 {
+                text-align: center;
+                color: #006400;
+            }
+            h2 {
+                color: #8B0000;
+            }
+            img {
+                display: block;
+                margin: 10px auto;
+                width: 80%;
+                height: auto;
+            }
+            .highlight {
+                color: #2E8B57;
+                font-weight: bold;
+            }
+            ul {
+                list-style-type: square;
+                margin: 20px 0;
+            }
+            li {
+                margin: 10px 0;
+            }
+            p {
+                text-align: justify;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Travel to Bali, Indonesia</h1>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Bali_Besakih_Temple.jpg" alt="Bali Temple">
+        
+        <h2>Things to See</h2>
+        <ul>
+            <li>Uluwatu Temple</li>
+            <li>Tanah Lot</li>
+            <li>Ubud Monkey Forest</li>
+            <li>Tegallalang Rice Terraces</li>
+        </ul>
+        
+        <h2>Activities to Do</h2>
+        <ul>
+            <li>Surfing at Kuta Beach</li>
+            <li>Exploring local markets in Ubud</li>
+            <li>Snorkeling in the crystal-clear waters</li>
+            <li>Visiting traditional Balinese villages</li>
+        </ul>
+        
+        <p>Bali is a stunning island in Indonesia, known for its picturesque landscapes and vibrant culture. 
+           Whether you're visiting ancient temples, enjoying world-class beaches, or exploring lush jungles, 
+           Bali offers something for every traveler. The warm hospitality of the Balinese people will make 
+           your trip unforgettable.</p>
+        
+        <p class="highlight">Don’t miss out on the amazing local cuisine, including dishes like Nasi Goreng and Satay. 
+           With so much to see and do, Bali is the perfect destination for your next adventure.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Bali_Ubud_Monkey_Forest.jpg" alt="Ubud Monkey Forest">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tegallalang_Rice_Terraces%2C_Bali.jpg" alt="Tegallalang Rice Terraces">
+    </body>
+</html>
+
+<!--This is a webpage to show the dinner menu for a restaurant. We've created the initial table with three columns for the meal, ingredients, and price. Now, add three rows of data to the table, one row for each meal.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: The dinner table</title>
+    </head>
+    <body>
+    
+        <h1>Our dinner menu</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Meal</th>
+                    <th>Ingredients</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Grilled Salmon</td>
+                    <td>Salmon, Lemon, Garlic, Olive Oil, Herbs</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Vegetarian Pasta</td>
+                    <td>Pasta, Tomato Sauce, Zucchini, Bell Peppers, Parmesan</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td>Chicken Caesar Salad</td>
+                    <td>Chicken Breast, Romaine Lettuce, Caesar Dressing, Croutons, Parmesan</td>
+                    <td>$12.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
+
+<!--Create a web page with your favorite recipes! The recipe book should have a table of contents linking to each recipe below, using internal links. Each recipe should have a table for the ingredients, a list of details, and a list and/or paragraphs of the steps required. If you use recipes from the internet, be sure to add a link to the website.
+
+Use CSS to style the recipe book, using a mix of the simple selectors and colors that you've learned.
+
+Tip: Can't find the images you want in our image selector? You can also bring in images from Wikipedia. To do that, use a site-restricted Google search, then click "View image" on the result you like, and copy the URL into your <img> tag.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                color: #333;
+            }
+            h1, h2 {
+                color: #2a9d8f;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #2a9d8f;
+                color: white;
+            }
+            a {
+                color: #e76f51;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Sabukhi's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#pasta">Pasta Carbonara</a></li>
+            <li><a href="#salad">Greek Salad</a></li>
+            <li><a href="#soup">Tomato Basil Soup</a></li>
+        </ol>
+        
+        <h2 id="pasta">Pasta Carbonara</h2>
+        
+        <ul>
+            <li>Time: 30 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Spaghetti</td>
+                    <td>400g</td>
+                </tr>
+                <tr>
+                    <td>Pancetta</td>
+                    <td>150g</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Parmesan Cheese</td>
+                    <td>50g</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>2 cloves</td>
+                </tr>
+                <tr>
+                    <td>Salt & Pepper</td>
+                    <td>To taste</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Cook the spaghetti according to the package instructions.</p>
+        <p><strong>Step 2:</strong> In a large pan, cook the pancetta until crispy. Add minced garlic and cook for an additional minute.</p>
+        <p><strong>Step 3:</strong> In a bowl, beat the eggs and mix with grated Parmesan cheese.</p>
+        <p><strong>Step 4:</strong> Drain the spaghetti and add it to the pan with the pancetta. Remove from heat.</p>
+        <p><strong>Step 5:</strong> Pour the egg and cheese mixture over the spaghetti, stirring quickly to create a creamy sauce. Season with salt and pepper.</p>
+        
+        <p><em>Source: <a href="https://www.simplyrecipes.com/recipes/spaghetti_alla_carbonara/">Simply Recipes</a></em></p>
+        
+        <h2 id="salad">Greek Salad</h2>
+        
+        <ul>
+            <li>Time: 15 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cucumber</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Red Onion</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Feta Cheese</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <td>Olives</td>
+                    <td>100g</td>
+                </tr>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>3 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Oregano</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Salt & Pepper</td>
+                    <td>To taste</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Chop the cucumber, tomatoes, and red onion into bite-sized pieces.</p>
+        <p><strong>Step 2:</strong> In a large bowl, combine the chopped vegetables with feta cheese and olives.</p>
+        <p><strong>Step 3:</strong> Drizzle with olive oil and sprinkle with oregano, salt, and pepper. Toss to combine.</p>
+        
+        <p><em>Source: <a href="https://www.simplyrecipes.com/recipes/greek_salad/">Simply Recipes</a></em></p>
+        
+        <h2 id="soup">Tomato Basil Soup</h2>
+        
+        <ul>
+            <li>Time: 40 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td>1kg</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>3 cloves</td>
+                </tr>
+                <tr>
+                    <td>Vegetable Broth</td>
+                    <td>500ml</td>
+                </tr>
+                <tr>
+                    <td>Basil Leaves</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>2 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Salt & Pepper</td>
+                    <td>To taste</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Heat olive oil in a large pot over medium heat. Add chopped onion and garlic, and sauté until soft.</p>
+        <p><strong>Step 2:</strong> Add chopped tomatoes and vegetable broth. Bring to a boil, then reduce heat and simmer for 30 minutes.</p>
+        <p><strong>Step 3:</strong> Stir in basil leaves and season with salt and pepper. Use an immersion blender to puree the soup until smooth.</p>
+        <p><strong>Step 4:</strong> Serve hot, garnished with additional basil leaves if desired.</p>
+        
+        <p><em>Source: <a href="https://www.simplyrecipes.com/recipes/tomato_basil_soup/">Simply Recipes</a></em></p>
+    
+    </body>
+</html>
+
+<!--This webpage displays the theme songs from a few famous TV families. Each of the lyrics paragraphs have id's, but the CSS rules for them have no properties yet. Add a font-family property to each of the CSS rules, using a generic family name that works for all computers. Choose a different font family for each rule.
+
+Here's a list of generic font families: sans-serif, serif, fantasy, monospace, and cursive.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Fancy font families</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            #flinstones {
+                font-family: fantasy;
+            }
+            #jetsons {
+                font-family: cursive;
+            }
+            #addams {
+                font-family: serif;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <p>Some fun theme songs of well known TV families...</p>
+    
+    <h4>The Flinstones</h4>
+    <p id="flinstones">
+    Meet the Flintstones<br>
+    They're the modern stone age family<br>
+    From the town of Bedrock<br>
+    They're a page right of history</p>
+    
+    <h4>The Jetsons</h4>
+    <p id="jetsons">
+    Meet George Jetson,<br>
+    His Boy Elroy,<br>
+    Daughter Judy,<br>
+    Jane, His wife
+    </p>
+
+    <h4>The Addams Family</h4>
+    <p id="addams">
+    They're creepy and they're kooky,<br>
+    mysterious and spooky<br>
+    They're all together ooky,<br>
+    the Addams Family 
+    </p>
+    </body>
+</html>
+
+<!--This webpage includes lyrics from a song about big words. We've put 'big' and 'bigger' classes on the <em>'s that describe big words, but we haven't styled them. Add a property to their CSS rules to make the size of the 'big' words big, and the size of the 'bigger' words even bigger. Use the same units for both properties.-->
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Challenge: Great big font sizes</title>
+            <style>
+                .big {
+                    font-size: 1.5em;
+                }
+                
+                .bigger { 
+                    font-size: 2em;
+                }
+            </style>
+        </head>
+        <body>
+    
+    <h1>Great Big Words</h1>
+    <h2>by Michael Mark & Tom Chapin</h2>
+    
+    <p>When I was a little kid,
+    a "<em class="big">diminutive juvenile</em>," <br>
+    I liked my folks to read to me,
+    I was an <em class="big">"eager bibliophile."</em> <br>
+    Now I love words for how they sound <br>
+    And how they <em class="big">"communicate."</em> <br>
+    Perhaps I should explain myself,
+    that is, <em class="big">"elucidate."</em> <br>
+    Great big words, I like <em class="big">big</em> words. <br>
+    Letter by letter, the <em class="bigger">bigger</em> the better <br>
+    Great big words. La la la la la la la la la la!</p>
+    
+        </body>
+    </html>
+
+<!--This webpage displays some famous quotes and declarations from movies and TV shows. Add a CSS rule that makes all of the quotes have an italic font style, so they'll look more like quotes.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Famous font formats</title>
+        <style>
+            .declaration { 
+                font-weight: bold;
+            }
+            
+            .quote {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h2>Famous quotes</h2>
+    <p class="quote">
+    "My mama always said life was like a box of chocolates. You never know what you're gonna get.".
+    <br> - Forrest Gump
+    </p>
+    
+    <p class="quote">
+    "May the force be with you."
+    <br>- Star Wars
+    </p>
+    
+     <h2>Famous declarations</h2>
+     
+    <p class="declaration">
+    I'M BATMAN.
+    </p>
+    
+    <p class="declaration">
+    Earth, water, fire. Together, we are CAPTAIN PLANET!
+    </p>
+    
+    </body>
+</html>
+
+<!--A "blog" (or "web log") is an online journal, which one or multiple people update on a frequent basis, like daily, weekly, or monthly. Many new programmers keep blogs to document their journey to becoming a programmer, with updates on what they've learned and what they've made.
+
+There are many "blogging engines" out there, like WordPress and Blogger, but in this project, you'll make your own blog using HTML and CSS. It should have at least 2 entries, and the table of contents should internally link to each entry. Use CSS text properties to style your blog - like changing the font family, line height, and font styles of various sections.
+
+If you like your blog, then you could use it to document your journey here - make it a featured project on your profile, then people that visit your profile will get to read about your journey!-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background-color: #f9f9f9;
+                padding: 20px;
+            }
+            h1, h2 {
+                color: #2a9d8f;
+                font-family: "Times New Roman", serif;
+                font-weight: bold;
+            }
+            h6 {
+                color: #555;
+                font-style: italic;
+                font-family: cursive;
+            }
+            a {
+                color: #e76f51;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>My Programming Journey</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#first-post">First post!</a></li>
+            <li><a href="#second-post">Second post!</a></li>
+        </ul>
+        
+        <h2 id="first-post">First post</h2>
+        <h6>Posted on January 22, 2025</h6>
+        
+        <p>Today, I started my journey to becoming a programmer. I learned the basics of HTML and CSS, and I'm excited to build my own web pages!</p>
+
+        <h2 id="second-post">Second post</h2>
+        <h6>Posted on January 29, 2025</h6>
+        
+        <p>This week, I delved into JavaScript and started to understand how to make my web pages interactive. It's challenging, but I'm making progress!</p>
+        
+    </body>
+</html>
+
+<!--This webpage describes groupers, a type of large ocean fish. In the first step, your job is to to make the first sentences of each paragraph stand out. Start by adding <span> tags around each first sentence. Then give both of your <span> tags a class called "first-sentence".-->
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Challenge: Group the groupers</title>
+            <style>
+                .first-sentence {
+                    font-weight: bold;
+                }
+                .info {
+                    background-color: #e0f7fa; /* Light cyan background color */
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    margin-bottom: 20px;
+                }
+            </style>
+        </head>
+        <body>
+        
+            <h1>Groupers</h1>
+            
+            <div class="info">
+                <p><span class="first-sentence">Groupers are teleosts (ray-finned fishes), typically having a stout body and a large mouth.</span> They can be quite large, and lengths over a meter and weights up to 100 kg are not uncommon, though obviously in such a large group, species vary considerably. They swallow prey rather than biting pieces off it. They do not have many teeth on the edges of their jaws, but they have heavy crushing tooth plates inside the pharynx. They habitually eat fish, octopuses, and crustaceans. Reports of fatal attacks on humans by the largest species, the giant grouper (Epinephelus lanceolatus) are unconfirmed.</p>
+    
+                <p><span class="first-sentence">Their mouths and gills form a powerful sucking system that sucks their prey in from a distance.</span> They also use their mouths to dig into sand to form their shelters under big rocks, jetting it out through their gills. Their gill muscles are so powerful, it is nearly impossible to pull them out of a cave if they feel attacked and extend those muscles to lock themselves in.</p>
+            </div>
+            
+            <a href="http://en.wikipedia.org/wiki/Grouper">Read more on Wikipedia</a>
+    
+        </body>
+    </html>
+
+
+<!--This webpage describes the ocean, with an image and a few paragraphs which are inside a <div>.
+
+In this first step, style the <div> that has a class of 'info', so that it takes up 70% of the width and is 200px tall.-->
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Challenge: The overflowing ocean</title>
+            <style>
+                .info {
+                    background: rgb(219, 235, 255);
+                    width: 70%;
+                    height: 200px;
+                    overflow: auto;
+                }
+                .first-sentence {
+                    font-weight: bold;
+                }
+                .pic {
+                    width: 70%;
+                }
+            </style>
+        </head>
+        <body>
+        
+            <h1>The ocean</h1>
+            
+            <img class="pic" src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" alt="Photo of rocky ocean beach in Hawaii">
+            
+            <div class="info">
+                <p>The <strong>ocean</strong> is the connected body of salty water that covers 70.8% of the Earth's surface. The sea moderates the Earth's climate and has important roles in the water cycle, carbon cycle, and nitrogen cycle. Although the sea has been travelled and explored since prehistory, the modern scientific study of the sea—oceanography—dates broadly to the British Challenger expedition of the 1870s. The sea is conventionally divided into four or five large sections, such as the Pacific, called oceans while smaller sections, such as the Mediterranean, are known as seas.
+                </p>
+                <p>
+        Owing to the present state of continental drift, the Northern Hemisphere is now fairly equally divided between land and sea (a ratio of about 2:3) but the South is overwhelmingly oceanic (1:4.7). Salinity in the open ocean is generally in a narrow band around 3.5% by mass, although this can vary in more landlocked waters, near the mouths of large rivers, or at great depths. About 85% of the solids in the open sea are sodium and chloride. Deep-sea currents are produced by differences in salinity and temperature. Surface currents are formed by the friction of waves produced by the wind and by tides, the changes in local sea level produced by the gravity of the Moon and Sun. The direction of all of these is governed by surface and submarine land masses and by the rotation of the Earth (the Coriolis effect).
+                </p>
+                
+                <a href="http://en.wikipedia.org/wiki/Sea">Read more on Wikipedia</a>
+            </div>
+            
+        </body>
+    </html>
+
+
+<!--This webpage displays a gallery of photos of boxer dogs. In this first step, add a border to all of the photos. Try and make it look like a photo frame, if you can.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: The boxer model</title>
+        <style>
+            body {
+                font-family: cursive;
+            }
+            .photo-gallery {
+                background: rgb(255, 254, 217);
+                padding: 20px; /* Add padding to the gallery div */
+            }
+            .photo {
+                width: 200px;
+                border: 10px solid #ccc; /* Light gray border */
+                padding: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Adds a shadow effect */
+                margin: 10px; /* Adds margin to separate the images */
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Boxers are beautiful?</h1>
+        
+        <div class="photo-gallery">
+        
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-laying-down.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-wagging-tongue.png">
+            
+        </div>
+        
+    </body>
+</html>
+
+
+<!--This webpage contains an image of a planet, an image of a creature, and a div with a greeting. Your job is to make it look like the creature is sitting on the planet and saying the greeting. In this first step, use absolute positioning to put the creature on top of the planet somewhere.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Position planet</title>
+        <style>
+            #greeting {
+                background: rgb(255, 255, 0);
+                border: 2px solid black;
+                font-family: "Comic Sans MS", fantasy;
+                padding: 5px;
+                width: 262px;
+                position: absolute;
+                top: 100px; /* Adjust as needed */
+                left: 50px; /* Adjust as needed */
+                z-index: 2; /* Ensure the greeting is above the creature */
+            }
+            
+            #creature {
+                position: absolute;
+                top: 50px;
+                left: 100px;
+                z-index: 1; /* Creature below the greeting */
+            }
+
+            body {
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" width="300">
+        
+        <div id="greeting">
+            <p>Hello! Welcome to position planet!</p>
+        </div>
+        
+        <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
+        
+
+    </body>
+</html>
+
+
+<!--This webpage contains information on clouds plus a photo of clouds. In the first step, float the photo to the left of the text, so that the text wraps around it.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Floating clouds</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            h1 {
+                font-family: fantasy;
+            }
+            #cloud-pic {
+                width: 100px;
+                float: left; /* Floats the photo to the left */
+                margin-right: 10px; /* Adds some space between the image and the text */
+            }
+            #cloud-sidebar {
+                background: rgb(255, 255, 219);
+                float: right; /* Floats the yellow div to the right */
+                width: 30%; /* Sets the width of the yellow div */
+                margin-left: 10px; /* Optional: Adds some space between the text and the yellow div */
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>What are clouds?</h1>
+
+        <img id="cloud-pic" src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png">
+        
+        
+        <div id="cloud-sidebar">
+            <h5>Why are some clouds yellow?</h5>
+            <p>Yellowish clouds may occur in the late spring through early fall months during forest fire season. The yellow color is due to the presence of pollutants in the smoke. Yellowish clouds caused by the presence of nitrogen dioxide are sometimes seen in urban areas with high air pollution levels.
+            </p>
+        </div>
+        
+        <p>In meteorology, a cloud is a visible mass of liquid droplets or frozen crystals made of water or various chemicals suspended in the atmosphere above the surface of a planetary body. These suspended particles are also known as aerosols and are studied in the cloud physics branch of meteorology.</p>
+
+        <p>Terrestrial cloud formation is the result of air in Earth's atmosphere becoming saturated due to either or both of two processes: cooling of the air and adding water vapor. With sufficient saturation, precipitation will fall to the surface.</p>
+        
+        
+        <p><a href="http://en.wikipedia.org/wiki/Cloud">Read more on Wikipedia</a></p>
+        
+    </body>
+</html>
+
+<!--In this project, you'll make an event invite for an event- a party, a workshop, a wedding, whatever you want. It should have event title, details, and maybe it'd have a guest list or RSVP button.
+
+Before you start coding, I encourage you to "prototype" it - to plan it out either on paper or with a "prototyping" tool. Sketch out the vision you have in your head and go through a few prototypes until you're happy.
+
+Then, when you're ready, try to implement your event invite in HTML/CSS. If you get stuck on something that's hard to transfer from paper to HTML, try searching on the internet or clicking "Request Help." I bet you'll learn something from the process.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event Invite</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                color: #333;
+                text-align: center;
+                padding: 20px;
+            }
+            .invite-container {
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                padding: 20px;
+                width: 80%;
+                max-width: 600px;
+                margin: 0 auto;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h1, h2 {
+                font-family: 'Georgia', serif;
+                color: #6b4e71;
+            }
+            .details {
+                text-align: left;
+                margin: 20px 0;
+            }
+            .rsvp-button {
+                background-color: #6b4e71;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-transform: uppercase;
+            }
+            .guest-list {
+                text-align: left;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="invite-container">
+            <h1>You're invited!</h1>
+            <h2>To John & Jane's Wedding</h2>
+            
+            <div class="details">
+                <p><strong>Date:</strong> June 15, 2025</p>
+                <p><strong>Time:</strong> 4:00 PM</p>
+                <p><strong>Venue:</strong> Beautiful Gardens, 123 Blossom Street, Almaty</p>
+            </div>
+            
+            <button class="rsvp-button">RSVP</button>
+            
+            <div class="guest-list">
+                <h3>Guest List:</h3>
+                <ul>
+                    <li>Guest 1</li>
+                    <li>Guest 2</li>
+                    <li>Guest 3</li>
+                    <li>Guest 4</li>
+                </ul>
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+
+<!--This is a webpage about animal group names, with a few headings and images as examples.
+
+There are already 2 CSS rules to style the <h1>s - one with a pseudo selector, and one without. Add another selector to each of the rules, so that they also style <h2>s.-->
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Challenge: Grouped animals</title>
+            <style>
+                p {
+                    font-family: sans-serif;
+                }
+                
+                img {
+                    max-width: 150px;
+                }
+                
+                h1, h2 {
+                    font-family: fantasy;
+                    border-bottom: 1px solid rgb(230, 230, 230);
+                    padding: 3px;
+                }
+                
+                h1:hover, h2:hover {
+                    background-color: rgb(248, 255, 199);
+                }
+                
+            </style>
+        </head>
+        <body>
+            
+            <h1>Animal group names</h1>
+            
+            <p>For many species of animals, there are names that we use to refer to a group of them - like a flock of birds. Here are a few you might not know.</p>
+            
+            <h2>A skulk of foxes</h2>
+    
+            <p>Also called a "leash."</p>
+            
+            <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+            <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+            
+            <h2>A clowder of cats</h2>
+            
+            <p>Also called a "pounce", "glaring", "kindle", or "clutter."</p>
+            
+            <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+            <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+            
+            <p>
+            <a href="http://en.wikipedia.org/wiki/List_of_animal_names">Learn more on Wikipedia</a>
+            </p>
+        </body>
+    </html>
+    

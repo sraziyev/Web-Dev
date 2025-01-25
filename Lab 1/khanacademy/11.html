@@ -1,0 +1,215 @@
+<!--Create a web page with your favorite recipes! The recipe book should have a table of contents linking to each recipe below, using internal links. Each recipe should have a table for the ingredients, a list of details, and a list and/or paragraphs of the steps required. If you use recipes from the internet, be sure to add a link to the website.
+
+Use CSS to style the recipe book, using a mix of the simple selectors and colors that you've learned.
+
+Tip: Can't find the images you want in our image selector? You can also bring in images from Wikipedia. To do that, use a site-restricted Google search, then click "View image" on the result you like, and copy the URL into your <img> tag.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                color: #333;
+            }
+            h1, h2 {
+                color: #2a9d8f;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #2a9d8f;
+                color: white;
+            }
+            a {
+                color: #e76f51;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Sabukhi's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#pasta">Pasta Carbonara</a></li>
+            <li><a href="#salad">Greek Salad</a></li>
+            <li><a href="#soup">Tomato Basil Soup</a></li>
+        </ol>
+        
+        <h2 id="pasta">Pasta Carbonara</h2>
+        
+        <ul>
+            <li>Time: 30 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Spaghetti</td>
+                    <td>400g</td>
+                </tr>
+                <tr>
+                    <td>Pancetta</td>
+                    <td>150g</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Parmesan Cheese</td>
+                    <td>50g</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>2 cloves</td>
+                </tr>
+                <tr>
+                    <td>Salt & Pepper</td>
+                    <td>To taste</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Cook the spaghetti according to the package instructions.</p>
+        <p><strong>Step 2:</strong> In a large pan, cook the pancetta until crispy. Add minced garlic and cook for an additional minute.</p>
+        <p><strong>Step 3:</strong> In a bowl, beat the eggs and mix with grated Parmesan cheese.</p>
+        <p><strong>Step 4:</strong> Drain the spaghetti and add it to the pan with the pancetta. Remove from heat.</p>
+        <p><strong>Step 5:</strong> Pour the egg and cheese mixture over the spaghetti, stirring quickly to create a creamy sauce. Season with salt and pepper.</p>
+        
+        <p><em>Source: <a href="https://www.simplyrecipes.com/recipes/spaghetti_alla_carbonara/">Simply Recipes</a></em></p>
+        
+        <h2 id="salad">Greek Salad</h2>
+        
+        <ul>
+            <li>Time: 15 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cucumber</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Red Onion</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Feta Cheese</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <td>Olives</td>
+                    <td>100g</td>
+                </tr>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>3 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Oregano</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Salt & Pepper</td>
+                    <td>To taste</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Chop the cucumber, tomatoes, and red onion into bite-sized pieces.</p>
+        <p><strong>Step 2:</strong> In a large bowl, combine the chopped vegetables with feta cheese and olives.</p>
+        <p><strong>Step 3:</strong> Drizzle with olive oil and sprinkle with oregano, salt, and pepper. Toss to combine.</p>
+        
+        <p><em>Source: <a href="https://www.simplyrecipes.com/recipes/greek_salad/">Simply Recipes</a></em></p>
+        
+        <h2 id="soup">Tomato Basil Soup</h2>
+        
+        <ul>
+            <li>Time: 40 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td>1kg</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>3 cloves</td>
+                </tr>
+                <tr>
+                    <td>Vegetable Broth</td>
+                    <td>500ml</td>
+                </tr>
+                <tr>
+                    <td>Basil Leaves</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>2 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Salt & Pepper</td>
+                    <td>To taste</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Heat olive oil in a large pot over medium heat. Add chopped onion and garlic, and sauté until soft.</p>
+        <p><strong>Step 2:</strong> Add chopped tomatoes and vegetable broth. Bring to a boil, then reduce heat and simmer for 30 minutes.</p>
+        <p><strong>Step 3:</strong> Stir in basil leaves and season with salt and pepper. Use an immersion blender to puree the soup until smooth.</p>
+        <p><strong>Step 4:</strong> Serve hot, garnished with additional basil leaves if desired.</p>
+        
+        <p><em>Source: <a href="https://www.simplyrecipes.com/recipes/tomato_basil_soup/">Simply Recipes</a></em></p>
+    
+    </body>
+</html>
