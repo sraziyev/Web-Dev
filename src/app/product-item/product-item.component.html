@@ -1,0 +1,32 @@
+<div class="product-card montserrat-alternates-regular">
+    <h2 class="product-name montserrat-alternates-bold">{{ product?.name }}</h2>
+    <div class="gallery">
+      <button class="nav-button prev" (click)="prevImage()">
+        &#9664;
+      </button>
+      <a [href]="product?.link" target="_blank">
+        <img *ngIf="product?.images.length" [src]="selectedImage" alt="{{ product.name }}" class="main-image">
+      </a>
+      <button class="nav-button next" (click)="nextImage()">
+        &#9654;
+      </button>
+    </div>
+    <div class="product-details">
+      <p class="product-description montserrat-alternates-light">{{ product?.description || 'No description' }}</p>
+      <p class="product-rating montserrat-alternates-medium">Рейтинг: {{ product?.rating }}</p>
+      <p class="product-likes montserrat-alternates-regular">Лайки: {{ product.likes || 0 }}</p>
+    </div>
+    <div class="actions">
+      <button (click)="increaseLikes()">Лайк</button>
+      <button (click)="removeProduct()">Удалить</button>
+    </div>
+    <div class="share-buttons">
+      <a (click)="shareOnTelegram()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png" alt="Поделиться в Telegram" class="share-logo">
+      </a>
+      <a (click)="share()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="Поделиться в WhatsApp" class="share-logo">
+      </a>
+    </div>
+  </div>
+  
