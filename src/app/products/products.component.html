@@ -1,0 +1,24 @@
+<div class="products">
+  <div class="product-card" *ngFor="let product of productsList">
+    <h2 class="product-name">{{ product?.name }}</h2>
+    <div class="gallery">
+      <button class="nav-button prev" (click)="product ? prevImage(product.id) : null">&#9664;</button>
+      <a [href]="product?.link" target="_blank">
+        <img *ngIf="product && product.images.length > 0" [src]="selectedImage[product.id] || product.images[0]" alt="{{ product.name }}" class="main-image">
+      </a>
+      <button class="nav-button next" (click)="product ? nextImage(product.id) : null">&#9654;</button>
+    </div>
+    <div class="product-details">
+      <p class="product-description">{{ product?.description || 'No description' }}</p>
+      <p class="product-rating">Рейтинг: {{ product?.rating }}</p>
+    </div>
+    <div class="share-buttons">
+      <a (click)="product ? shareOnTelegram(product) : null">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png" alt="Поделиться в Telegram" class="share-logo">
+      </a>
+      <a (click)="product ? share(product) : null">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="Поделиться в WhatsApp" class="share-logo">
+      </a>
+    </div>
+  </div>
+</div>
