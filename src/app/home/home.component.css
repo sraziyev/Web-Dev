@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #666;
+    font-size: 1.1em;
+    font-weight: bold; 
+    text-align: center;
+  }

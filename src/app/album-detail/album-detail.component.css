@@ -1,0 +1,78 @@
+.album-detail-container {
+    font-family: 'Montserrat Alternates', sans-serif;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  input {
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  button {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .save-btn {
+    background-color: #000;
+    color: white;
+  }
+  
+  .save-btn:hover {
+    background-color: #444;
+  }
+  
+  .return-btn {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .return-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  .photos-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .photos-link:hover {
+    color: #444;
+  }

@@ -1,0 +1,49 @@
+.photos-container {
+    font-family: 'Montserrat Alternates', sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  .return-btn {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 20px;
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .return-btn:hover {
+    background-color: #c9302c;
+  }
