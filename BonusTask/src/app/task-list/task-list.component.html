@@ -1,0 +1,23 @@
+<div *ngIf="!selectedCategory">
+    <h2>Select a Category</h2>
+    <button *ngFor="let category of categories" (click)="selectCategory(category)">
+      {{ category }}
+    </button>
+  </div>
+  
+  <div *ngIf="selectedCategory && !selectedTask">
+    <h2>{{ selectedCategory }} Tasks</h2>
+    <button (click)="onBackToCategories()">Back to Categories</button>
+    <app-task-item
+      *ngFor="let task of getFilteredTasks()"
+      [task]="task"
+      (taskCompleted)="onTaskCompleted($event)"
+      (click)="showTaskDetails(task)">
+    </app-task-item>
+  </div>
+  
+  <div *ngIf="selectedTask">
+    <app-task-detail [task]="selectedTask"></app-task-detail>
+    <button (click)="onBackToList()">Back to Tasks</button>
+  </div>
+  
