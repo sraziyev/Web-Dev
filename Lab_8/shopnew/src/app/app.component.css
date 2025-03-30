@@ -1,0 +1,47 @@
+
+:host {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .categories ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 16px 0;
+    margin: 0;
+    background-color: #000;
+  }
+  
+
+  .category-button {
+    margin: 0 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background-color: #9370DB;
+    color: #fff;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .category-button:hover {
+    background-color: #7A5DC7; 
+  }
+  
+  .category-button.active {
+    background-color: #6A5ACD; 
+  }
+  
+  .products {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
